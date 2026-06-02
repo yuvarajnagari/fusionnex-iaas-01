@@ -24,8 +24,8 @@ jobs:
           aws-region: ${{ secrets.AWS_REGION }}  
           aws-region: ap-northeast-1 
 
-      - name: Terraform Init
-        run: terraform init
+      - name: Terraform Init 
+        run: terraform init 
 
       - name: Terraform validate
         run: terraform validate 
